@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore | Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="RedStore Logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" alt="Cart icon" class="cart"></a>
+                <img src="images/menu.png" alt="Menu Hamburger icon" class="menu-icon" onclick="menuToggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Yourself A <br> Brand New Style!</h1>
+                    <p>Discover the latest trends in fashion and elevate your wardrobe with our curated collections.
+                        <br> From chic casual wear to elegant evening dresses, RedStore has it all.
+                    </p>
+                    <a href="product.html" class="btn">Explore Now &#8594;</a>
+                    <a href="about.html" class="btn"> Learn More &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/Back-removebg-preview.png" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Feature Categories -->
+
+    <section id="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/Men Wears.jpg" alt="">
+                    <div class="category-content">
+                        <h3>Men Wears</h3>
+                        <p>Stylish and comfortable outfits for every occasion.</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                    <div class="category-content">
+                        <h3>Men Shoes</h3>
+                        <p>Durable and trendy footwear for men.</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/Women Wears.jpg" alt="">
+                    <div class="category-content">
+                        <h3>Women Wears</h3>
+                        <p>Elegant and chic clothing for the modern woman.</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/Women Shoes.jpg" alt="">
+                    <div class="category-content">
+                        <h3>Women Shoes</h3>
+                        <p>Stylish shoes to complement any outfit.</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/Kid Wears.jpg" alt="">
+                    <div class="category-content">
+                        <h3>Kid Wears</h3>
+                        <p>Adorable and comfortable clothes for kids.</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/Kid Shoes.jpg" alt="">
+                    <div class="category-content">
+                        <h3>Kid Shoes</h3>
+                        <p>Fun and sturdy footwear for kids.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Products -->
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed TShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+                <p>$100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Black Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$200.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Grey Tracksuit</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$185.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Navy Puma Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+        </div>
+        <a href="product.html" class="btn feature-product">View More &#8594;</a>
+    </div>
+
+    <!-- Offer -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively available on our store</p>
+                    <h1>Smart Band 4</h1>
+                    <small>Stay connected and track your fitness with the latest Smart Band 4. Available now at RedStore.</small> <br>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"RedStore has transformed my wardrobe with their trendy and affordable collections. I love shopping here!"</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-1.png" alt="">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"The customer service at RedStore is exceptional. They go above and beyond to ensure customer satisfaction."</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3>Peter White</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"I always find something unique and stylish at RedStore. Their collections are a perfect blend of quality and fashion."</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>James Nel</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Categories</h3>
+            <li>Dresses</li>
+            <li>Jackets</li>
+            <li>Shoes</li>
+            <li>Accessories</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Customer Service</h3>
+            <li>Shipping Policy</li>
+            <li>Returns</li>
+            <li>FAQ</li>
+            <li>Support</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Blog</li>
+            <li>Guides</li>
+            <li>Fashion Tips</li>
+            <li>Style Inspiration</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Stay updated with the latest fashion trends and exclusive offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">Subscribe</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This template is made by RedStore</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>

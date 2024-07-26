@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="navbar">
+                <div class="logo">
+                  <a href="index.html"><img src="images/logo.png" alt="RedStore Logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" alt="Cart icon" class="cart"></a> 
+                <img src="images/menu.png" alt="Menu Hamburger icon" class="menu-icon" onclick="menuToggle()">
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Account Page -->
+
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/image1.png" alt="Account Hero Image">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="indicator">
+                        </div>
+                        <form action="" id="LoginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot Password</a>
+                        </form>
+                        <form action="" id="RegForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Categories</h3>
+            <li>Dresses</li>
+            <li>Jackets</li>
+            <li>Shoes</li>
+            <li>Accessories</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Customer Service</h3>
+            <li>Shipping Policy</li>
+            <li>Returns</li>
+            <li>FAQ</li>
+            <li>Support</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Blog</li>
+            <li>Guides</li>
+            <li>Fashion Tips</li>
+            <li>Style Inspiration</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Stay updated with the latest fashion trends and exclusive offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">Subscribe</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This template is made by RedStore</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+
+
+    <!-- JavaScript Link For Toggle Form -->
+    <script src="account.js"></script>
+
+</body>
+
+</html>
